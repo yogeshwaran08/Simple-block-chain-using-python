@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Search Data</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+
+	<div class="container">
+		<div class="row justify-content-center mt-5">
+			<div class="col-md-6">
+				<!-- Form -->
+				<form method="GET" action="/search">
+					<div class="form-group">
+						<label for="VIN">Enter the VIN number:</label>
+						<input type="text" class="form-control" id="VIN" name="VIN" required>
+					</div>
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!-- Bootstrap JS -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
